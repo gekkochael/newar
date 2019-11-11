@@ -1,0 +1,283 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v0.9.36",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0,
+                0,
+                -0.559296190738678,
+                0.8289678692817688
+            ],
+            "scale" : [
+                1.5060100555419922,
+                1.5060133934020996,
+                1.5060136318206787
+            ],
+            "translation" : [
+                2.073667049407959,
+                1.8175015449523926,
+                0.16583251953125
+            ]
+        },
+        {
+            "name" : "Empty",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                3.5591800212860107,
+                2.6447064876556396,
+                0
+            ]
+        },
+        {
+            "name" : "Light.001",
+            "scale" : [
+                0.2909022569656372,
+                0.29090288281440735,
+                0.2909029424190521
+            ],
+            "translation" : [
+                0.10449361801147461,
+                8.652650833129883,
+                -3.1102724075317383
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Plane.001",
+            "translation" : [
+                0.9095922708511353,
+                -0.7703108787536621,
+                0
+            ]
+        },
+        {
+            "name" : "Light.002",
+            "scale" : [
+                22.731266021728516,
+                22.73131561279297,
+                22.731319427490234
+            ],
+            "translation" : [
+                0.10449361801147461,
+                8.652650833129883,
+                -3.1102724075317383
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Linen.002",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 1,
+                "metallicRoughnessTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Draufsicht Glatter Stoff 2",
+            "uri" : "Draufsicht Glatter Stoff 2.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Draufsicht Glatter Stoff 2",
+            "uri" : "Draufsicht Glatter Stoff 2-1.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 24208,
+            "max" : [
+                12.890966415405273,
+                1.9645748138427734,
+                12.499984741210938
+            ],
+            "min" : [
+                -10.187775611877441,
+                -0.6628766655921936,
+                -12.500162124633789
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 24208,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 24208,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 36312,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 22680,
+            "max" : [
+                12.890966415405273,
+                1.9645748138427734,
+                12.499984741210938
+            ],
+            "min" : [
+                -10.187775611877441,
+                -0.6628766655921936,
+                -12.500162124633789
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 22680,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 22680,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 36108,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 290496,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 290496,
+            "byteOffset" : 290496
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 193664,
+            "byteOffset" : 580992
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72624,
+            "byteOffset" : 774656
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 272160,
+            "byteOffset" : 847280
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 272160,
+            "byteOffset" : 1119440
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 181440,
+            "byteOffset" : 1391600
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72216,
+            "byteOffset" : 1573040
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1645256,
+            "uri" : "JUPPE3.bin"
+        }
+    ]
+}
