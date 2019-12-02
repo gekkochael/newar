@@ -13,13 +13,14 @@
 
 
         <a-marker   <a-marker preset="hiro">>
-            <a-entity scale="0.1 0.1 0.1" position="0 2 0" rotation="0 0 0"
+            <a-entity scale="0.1 0.1 0.1" position="0 0 0" rotation="0 0 0"
                  gltf-model="url(https://gekkochael.github.io/newar/lego/lego.gltf);">
              </a-entity>
             </a-entity>
         </a-marker>
 
         <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
-        </a-scene>
+        <a-entity camera></a-entity>
+    </a-scene>
     </body>
 </html>
